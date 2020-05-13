@@ -28,7 +28,7 @@
 		<h2> 
 		<a  href="https://www.figma.com/file/0KbhJ1FLzfD9pNQaYAVVbk/Tutoring-app?node-id=0%3A1">
 
-		<i class="moremorespecial"> Click here to try it out! </i> </a> </h2>
+		<i class="moremorespecial" onclick="Try" > Try it out! </i> </a> </h2>
 
 
 		<a href="https://imgur.com/a/2N0FiFk">
@@ -100,11 +100,31 @@
 		<div class="response" id="mce-success-response" style="display:none"></div>
 	</div>   
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0c9d420577af2d2b7d4524cad_a9a2f3fc5b" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" onclick= "Subscribe" class="button"></div>
     </div>
 </form>
 </div>
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+
+	<script>
+
+function onButtonSubscribe() {
+        gtag("event", "Subscribe");
+        "event_category": "Landing Site"
+         
+    });
+
+function onButtonTry () {
+	gtag(“event”, “Try”);
+
+}
+
+
+   
+
+
+
+</script>
 
 
   </body>  
