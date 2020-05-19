@@ -3,7 +3,10 @@
 		<title> Help'n Teach </title>
      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet"> 
   <link href="styles-2.css" rel="stylesheet"/>
-  
+	   
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	   
 	<link rel="shortcut icon" type="image"
 		href="https://imgur.com/a/1zqhqBK.jpg"/>
   
@@ -123,8 +126,12 @@ function onButtonTry () {
 }
 
    
+   $("#button-subscribe").on("click", function() {
+   $("#mc_embed_signup").hide();
+   $("#Thank you for subscribing!").show();
 
 
+}
 
 </script>
 
