@@ -35,6 +35,14 @@
 		
 		}
 		
+		.special1 {
+			color:  rgb(204, 139, 134) ;
+			text-align : center;
+			font-size: 17px;
+
+		}
+
+
 		.morespecial {
 			color:  rgb(204, 139, 134);
 			font-size: 80px;
